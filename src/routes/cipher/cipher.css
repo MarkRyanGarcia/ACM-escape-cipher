@@ -6,14 +6,14 @@ body {
     color: #f4f4f9;
 }
 
-/* Cipher page container */
+
 .cipher-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 20px;
     background: linear-gradient(145deg, #3a3a3a, #2d2d2d);
     box-shadow: inset 0 0 15px #000000;
@@ -57,14 +57,16 @@ body {
     margin-bottom: 15px;
 }
 
-/* Table styles */
+/* Cipher table with adjusted margin */
 .cipher-table {
-    margin: 20px auto;
+    margin-top: 60px;  /* Increased margin-top */
+    margin-bottom: 40px;  /* Adjusted margin-bottom */
     border-collapse: collapse;
     width: 80%;
     max-width: 400px;
 }
 
+/* Table cell styling */
 .cipher-table th, .cipher-table td {
     padding: 12px;
     text-align: center;

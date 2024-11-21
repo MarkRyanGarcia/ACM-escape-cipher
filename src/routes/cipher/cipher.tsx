@@ -12,17 +12,13 @@ const CipherPage: React.FC = () => {
 
     return (
         <div className="cipher-container">
-            <h1 className="cipher-title">Cryptic Message</h1>
-            <p className="cipher-intro">Here's a cryptic message encoded with the Caesar cipher (shift = 3):</p>
+            <h1 className="cipher-title">TechCorp's Hash Function</h1>
 
             <div className="cipher-message">
                 <h2>{encodedMessage}</h2>
             </div>
 
             <h3 className="cipher-subtitle">Decoding Sheet</h3>
-            <p className="cipher-instructions">
-                Use the table below to decode the message. Each letter in the cryptic message is shifted **3 places forward** in the alphabet. Shift it **backward** to decode.
-            </p>
 
             <table className="cipher-table">
                 <thead>
