@@ -2,7 +2,7 @@ import React from "react";
 import "./cipher.css";
 
 const CipherPage: React.FC = () => {
-    const encodedMessage = "Wklv lv d whvw phvvdjh."; // Encoded message with Caesar cipher (shift = 3)
+    const encodedMessage = "KXQB"; // Encoded message with Caesar cipher (shift = 3)
 
     const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     const shiftedAlphabet = alphabet.split("").map((char, idx) => {
@@ -23,8 +23,8 @@ const CipherPage: React.FC = () => {
             <table className="cipher-table">
                 <thead>
                     <tr>
-                        <th>Original</th>
                         <th>Hashed</th>
+                        <th>Original</th>
                     </tr>
                 </thead>
                 <tbody>
