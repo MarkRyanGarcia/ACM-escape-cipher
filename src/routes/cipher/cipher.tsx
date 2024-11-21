@@ -18,13 +18,13 @@ const CipherPage: React.FC = () => {
                 <h2>{encodedMessage}</h2>
             </div>
 
-            <h3 className="cipher-subtitle">Decoding Sheet</h3>
+            <h3 className="cipher-subtitle">Decoding Sheet</h3> 
 
             <table className="cipher-table">
                 <thead>
                     <tr>
-                        <th>Encoded</th>
                         <th>Original</th>
+                        <th>Hashed</th>
                     </tr>
                 </thead>
                 <tbody>
