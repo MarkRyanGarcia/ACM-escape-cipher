@@ -12,18 +12,20 @@ const CipherPage: React.FC = () => {
 
     return (
         <div className="cipher-container">
-            <h1 className="cipher-title">TechCorp's Hash Function</h1>
+            <h1 className="cipher-title">Top Secret Encryption Alogrithm</h1>
 
             <div className="cipher-message">
                 <h2>{encodedMessage}</h2>
             </div>
 
             <h3 className="cipher-subtitle">Decoding Sheet</h3> 
-
+            <p>
+                Use the table below to decrypt the above key.
+            </p>
             <table className="cipher-table">
                 <thead>
                     <tr>
-                        <th>Hashed</th>
+                        <th>Encrypted</th>
                         <th>Original</th>
                     </tr>
                 </thead>
@@ -38,7 +40,7 @@ const CipherPage: React.FC = () => {
             </table>
 
             <p className="cipher-hint">
-                Hint: Non-alphabetic characters (like spaces or punctuation) stay the same.
+                Made with 💗 by Markypoo
             </p>
         </div>
     );
