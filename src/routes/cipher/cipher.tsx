@@ -12,7 +12,7 @@ const CipherPage: React.FC = () => {
 
     return (
         <div className="cipher-container">
-            <h1 className="cipher-title">Top Secret Encryption Alogrithm</h1>
+            <h1 className="cipher-title">Top Secret Encryption Algorithm</h1>
 
             <div className="cipher-message">
                 <h2>{encodedMessage}</h2>
