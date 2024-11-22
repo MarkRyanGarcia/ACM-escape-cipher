@@ -2,11 +2,13 @@ import React from "react";
 import "./cipher.css";
 
 const CipherPage: React.FC = () => {
-    const encodedMessage = "KSIBM DGMSBM IBNX"; // Encoded message with Caesar cipher (shift = 3)
-    // UNDER CORNER DESK
+    const encodedMessage = "LOPGMWRZCN LMB JKWRB DGCVOBY, OBLMS AGKM ILRL NRMKDRKMBN"; 
+
     const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     const shiftedAlphabet = alphabet.split("").map((char, idx) => {
         // const shiftedIdx = (idx + 3) % 26;
+        // ALGORITHMS ARE QUITE COMPLEX, LEARN YOUR DATA STRUCTURES
+        // LOPGMWRZCN LMB JKWRB DGCVOBY, OBLMS AGKM ILRL NRMKDRKMBN
         const encrypted = "YEMCWBOJDQUARSLGFTNVZPIKXH"
         // return { original: alphabet[shiftedIdx], encoded: char };
         return { original: encrypted[idx], encoded: char };
