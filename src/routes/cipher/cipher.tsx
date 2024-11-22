@@ -2,12 +2,14 @@ import React from "react";
 import "./cipher.css";
 
 const CipherPage: React.FC = () => {
-    const encodedMessage = "KXQB"; // Encoded message with Caesar cipher (shift = 3)
-
+    const encodedMessage = "KSIBM DGMSBM IBNX"; // Encoded message with Caesar cipher (shift = 3)
+    // UNDER CORNER DESK
     const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     const shiftedAlphabet = alphabet.split("").map((char, idx) => {
-        const shiftedIdx = (idx + 3) % 26;
-        return { original: alphabet[shiftedIdx], encoded: char };
+        // const shiftedIdx = (idx + 3) % 26;
+        const encrypted = "YEMCWBOJDQUARSLGFTNVZPIKXH"
+        // return { original: alphabet[shiftedIdx], encoded: char };
+        return { original: encrypted[idx], encoded: char };
     });
 
     return (
